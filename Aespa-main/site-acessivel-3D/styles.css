@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro:rgb(224, 105, 253);
+    --laranja-claro:rgb(209, 69, 69);
 }
 
 body {
@@ -30,7 +30,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-color: var(--laranja-claro);
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -59,7 +59,7 @@ section {
 }
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: #a32929;
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -71,7 +71,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px #a32929;
 }
 
 
@@ -114,7 +114,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-color: var(--laranja-claro);
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -133,7 +133,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #b043cb;
+    background-color: #ff0000;
     border: none;
     font-weight: bold;
 }
